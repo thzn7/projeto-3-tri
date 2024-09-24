@@ -1,0 +1,37 @@
+:root{
+    --bg-color: #222831;
+    --primary-color:#DDDDDD;
+    --secondary-color:#F05454;
+    --font: "Nunito Sant", sans-serif;
+
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.cabecalho{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--primary-color);
+}
+h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+}
+nav a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
