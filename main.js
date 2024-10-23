@@ -1,7 +1,7 @@
 async function visualizarDados(){
-    const res = await fetch(url)
     const dados = await res.json()
-     console.log(dados)
+    regiao = 0
+    resultado_dados
   }
   visualizarDados()
 
